@@ -5,7 +5,7 @@ export const Button = ({ buttonType, buttonText, isDisabled, onClick }) => {
     <button
       type={buttonType === "submit" ? "submit" : "button"}
       disabled={isDisabled}
-      // onClick={onClick}
+      onClick={onClick}
     >
       {buttonText}
     </button>
